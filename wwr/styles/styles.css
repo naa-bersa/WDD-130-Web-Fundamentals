@@ -18,7 +18,7 @@ nav {
     justify-content: space-around;
 }
 
-#hero-msg h1, #hero-msg h4.button-box {
+#hero-msg h1, #hero-msg h4, .button-box {
     text-align: center;
 }
 
