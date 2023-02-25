@@ -156,6 +156,23 @@ nav a:hover {
   line-height: 3em;
 }
 
+#castle {
+  width: 1000px;
+}
+
+#lara {
+    width: 1000px;
+}
+
+#Freedom{
+  width:1000px ;
+}
+#cocoa {
+  width:700px ;
+}
+#gold {
+width: 1000px;
+}
 .top {
   grid-area: top;
   border-left: 1px solid;
