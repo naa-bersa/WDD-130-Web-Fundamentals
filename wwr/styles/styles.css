@@ -111,8 +111,8 @@ nav a:hover {
 }
 
 footer {
-    background-color: rgb(118, 108, 89);
-    color: #bd9575;
+    background-color: rgb(38, 74, 128);
+    color: #2f5b99;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -122,15 +122,15 @@ footer {
 }
 
 footer a {
-    background-color: rgb(174, 218, 196);
-    color: #030303;
+    background-color: rgb(243, 249, 244);
+    color: #000000;
     text-align: center;
     text-decoration: none;
 }
 
 footer a:hover {
     background-color: aliceblue;
-    color: rgb(133, 186, 232);
+    color: rgb(16, 128, 232);
 }
 
 footer p{ 
@@ -191,7 +191,7 @@ nav a {
         
 
 h2{
-    color: #ddddcf;
+    color: #08471c;
 }
 
 .rivers-card, .camping-card, .rapids-card{
@@ -275,3 +275,46 @@ h2{
         margin-top: 25px;
     }
 }
+.rivers1{
+    display: grid;
+  grid-template-columns:1fr 1fr;
+  width: 100%; 
+  background-color: rgb(218, 242, 213);
+}
+
+.river_img
+{
+    width: 100%;
+}
+
+p{
+ color: #092514;
+}
+
+.clearwater{
+    display: grid;
+  grid-template-columns:1fr 1fr;
+  width: 100%; 
+  background-color: rgb(218, 242, 213);
+  padding: 50px;
+}
+
+.clearwaterimg{
+    width: 100%;
+}
+.adventure{
+    font-size: 30px;
+    padding-right: 50px;
+}
+.clear{
+    font-size:30px ;
+    padding-left: 50px;
+}
+.summer{
+    font-size: 70px;
+    color: rgb(6, 81, 56);
+}
+.summer:hover{
+    color: rgb(23, 232, 177);
+}
+
