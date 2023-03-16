@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Fira+Sans:wght@100&family=Moon+Dance&family=Rouge+Script&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    text-align: center;
+    color: #b26526;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero-msg h1, #hero-msg h4, .button-box {
+    text-align: center;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.home-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+}
+
+#hero-msg h4 {
+    color: rgb(4, 5, 7);
+}
+
+main section {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+    background-color: rgb(225, 239, 234);
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+
+body {
+    background-color: #fffefe ;
+    font-family: Arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2   {margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #000000 ;
+}
+
+nav a:hover {
+    background-color: #f4eeed;
+    color: #722727;
+} 
+
+.book, .join {
+    background-color: rgba(44, 103, 41, 0.568);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: rgb(244, 254, 251);
+    color: #ddddcf;
+}
+.msg {
+     background-color: rgb(49, 103, 103);
+     line-height: 1.5em;
+     padding: 35px;
+     grid-column: 6/10;
+     grid-row: 6/7;
+     box-shadow: 5px 5px 10px #6f7364
+}
+
+.msg h2 {
+    color: rgb(163, 163, 30);
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Rouge Script', cursive;
+    font-family: 'Euphoria Script', cursive;
+
+}
+.msg p {
+    color: #053227;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(255, 251, 251);
+    color: #848f9e;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer a {
+    background-color: rgb(248, 245, 185);
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: aliceblue;
+    color: rgb(16, 128, 232);
+}
+
+footer p{ 
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.home-title {
+   color: #000000;
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 2em;
+   margin-top: 10px;
+}
+
+h4 {
+    color: rgb(22, 58, 90);
+}
+
+nav a {
+    color: #ddddcf;
+    padding: 35px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo-link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px ;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px ;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+        
+
+h2{
+    color: #08471c;
+}
+
+.freedom-img{
+    width:720px;
+}
+
+
+
+.boat-img {
+    width: 100%;
+}
+.beads-img{
+    width: 720px;
+}
+.freedom, .beads{
+    margin:200px 0;
+}
+  
+.freedom{
+    grid-column:1/9 ;
+    grid-row: 2/3;
+    width:500px
+}
+
+
+.beads {
+    grid-column: 6/11;
+    grid-row: 2/3;
+}
+
+.boats {
+    grid-column: 4/8;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7354
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+.rivers1{
+    display: grid;
+  grid-template-columns:1fr 1fr;
+  width: 100%; 
+  background-color: rgb(218, 242, 213);
+}
+
+.river_img
+{
+    width: 100%;
+}
+
+p{
+ color: #092514;
+}
+
+.clearwater{
+    display: grid;
+  grid-template-columns:1fr 1fr;
+  width: 100%; 
+  background-color: rgb(218, 242, 213);
+  padding: 50px;
+}
+
+.clearwaterimg{
+    width: 100%;
+}
+.adventure{
+    font-size: 30px;
+    padding-right: 50px;
+}
+.clear{
+    font-size:30px ;
+    padding-left: 50px;
+}
+.summer{
+    font-size: 70px;
+    color: rgb(6, 81, 56);
+}
+.summer:hover{
+    color: rgb(23, 232, 177);
+}
+
