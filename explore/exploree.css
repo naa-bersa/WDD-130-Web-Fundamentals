@@ -310,10 +310,7 @@ h2{
     grid-template-columns:1fr 1fr;
     width: 100%; 
 }
-.Learn:hover {
-    background-color: rgb(197, 243, 200);
-    color: rgb(16, 128, 232);
-}
+
 
 * {box-sizing:border-box}
 
